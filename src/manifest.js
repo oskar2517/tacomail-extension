@@ -16,7 +16,7 @@ const sharedManifest = {
     permissions: ["storage"],
     browser_specific_settings: {
         gecko: {
-            id: "test@test.com"
+            id: "contact@admin.tacomail.de"
         }
     }
 };
@@ -34,13 +34,12 @@ const browserAction = {
 const ManifestV2 = {
     ...sharedManifest,
     browser_action: browserAction,
-    permissions: [...sharedManifest.permissions, "*://*/*"],
+    permissions: [...sharedManifest.permissions],
 };
 
 const ManifestV3 = {
     ...sharedManifest,
     action: browserAction,
-    host_permissions: ["*://*/*"],
 };
 
 export function getManifest(manifestVersion) {

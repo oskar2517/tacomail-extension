@@ -47,5 +47,6 @@
         justify-content: center;
         box-shadow: 0 2px 4px rgb(34 36 43 / 16%);
         padding: 10px 5px;
+        overflow: hidden;
     }
 </style>

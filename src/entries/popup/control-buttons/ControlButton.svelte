@@ -47,7 +47,7 @@
         background: #f5f5fa;
         border: 0;
         border-radius: 5px;
-        box-shadow: -5px -5px 15px 0 #fff, 5px 5px 15px 0 #1d0dca17;
+        box-shadow: -5px -5px 10px 0 #fff, 5px 5px 10px 0 #1d0dca17;
         box-sizing: border-box;
         color: #1d1d1e;
         cursor: pointer;
