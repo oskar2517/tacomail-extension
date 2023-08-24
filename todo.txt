@@ -1,2 +1,0 @@
-font lokal installieren
-mailentry zu button machen
