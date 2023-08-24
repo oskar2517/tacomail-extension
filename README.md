@@ -11,14 +11,15 @@ The extension has been tested to work both with Chromium-based browsers and Fire
 ![Screenshot 3](git_assets/screenshot_3.png)
 
 ## Development
-1. Install [Node.js](https://nodejs.org/en).
-2. Open a terminal inside this directory.
-3. Install the required dependencies using `npm install`.
-4. Run either `npm run debug:chrome` or `npm run debug:firefox` to open a browser instance with the plugin installed.
+Make sure [Node.js](https://nodejs.org/en) (Tested on v18.1.0) is installed on your system (either Windows, Linux or macOS).
 
-## Building
-1. Install [Node.js](https://nodejs.org/en).
-2. Open a terminal inside this directory.
-3. Install the required dependencies using `npm install`.
-4. Run `npm run buildExtension`.
-5. The generated plugin file can be found in `web-ext-artifacts`.
+### Debugging
+1. Open a terminal inside this directory.
+2. Install the required dependencies using `npm install`.
+3. Run either `npm run debug:chrome` or `npm run debug:firefox` to open a browser instance with the plugin installed.
+
+### Building
+1. Open a terminal inside this directory.
+2. Install the required dependencies using `npm install`.
+3. Run `npm run buildExtension`.
+4. The generated plugin file can be found in `web-ext-artifacts`.
