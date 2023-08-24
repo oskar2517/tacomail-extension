@@ -11,7 +11,8 @@
     "serve:firefox": "web-ext run --start-url \"about:debugging#/runtime/this-firefox\"  --source-dir ./dist/",
     "serve:chrome": "web-ext run -t chromium --start-url \"https://example.com\" --source-dir ./dist/",
     "debug:chrome": "npm run build && npm run serve:chrome",
-    "debug:firefox": "npm run build && npm run serve:firefox"
+    "debug:firefox": "npm run build && npm run serve:firefox",
+    "buildExtension": "npm run build && web-ext build --source-dir ./dist/ --overwrite-dest"
   },
   "license": "MIT",
   "devDependencies": {
