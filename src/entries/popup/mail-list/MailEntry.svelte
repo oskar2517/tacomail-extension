@@ -28,7 +28,8 @@
         text-align: left;
         font-family: inherit;
         display: grid;
-        grid-template-columns: max-content minmax(15%, 30%) auto max-content;
+        width: 100%;
+        grid-template-columns: max-content minmax(15%, 30%) 1fr max-content;
         padding: 7px;
         background-color: #f5f5fa;
         font-size: 16px;
