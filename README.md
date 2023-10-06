@@ -3,6 +3,16 @@ The TacoMail browser extension offers a hassle-free way to interact with the Tac
 
 The extension has been tested to work both with Chromium-based browsers and Firefox.
 
+<div align="center">
+<a href="https://chrome.google.com/webstore/detail/tacomail/dejnfajebemepkbjocbefgbiomnabgko">
+    <img src="git_assets/store_button_chrome.png" alt="Chrome store">
+</a>
+
+<a href="https://addons.mozilla.org/en-US/firefox/addon/tacomail/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search">
+    <img src="git_assets/store_button_firefox.png" alt="Chrome store">
+</a>
+</p>
+
 ## Screenshots
 ![Screenshot 1](git_assets/screenshot_1.png)
 
