@@ -11,7 +11,7 @@ The extension has been tested to work both with Chromium-based browsers and Fire
 <a href="https://addons.mozilla.org/en-US/firefox/addon/tacomail/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search">
     <img src="git_assets/store_button_firefox.png" alt="Chrome store">
 </a>
-</p>
+</div>
 
 ## Screenshots
 ![Screenshot 1](git_assets/screenshot_1.png)
